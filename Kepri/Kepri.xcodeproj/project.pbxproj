@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B62467CE5FFCD620309BD75 /* Pods_Kepri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507752F897FA3511F5A5C08F /* Pods_Kepri.framework */; };
+		D6CB3CB41FC9529D004F8248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3CB31FC9529D004F8248 /* AppDelegate.swift */; };
+		D6CB3CB61FC9529D004F8248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3CB51FC9529D004F8248 /* ViewController.swift */; };
+		D6CB3CB91FC9529D004F8248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3CB71FC9529D004F8248 /* Main.storyboard */; };
+		D6CB3CBB1FC9529D004F8248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3CBA1FC9529D004F8248 /* Assets.xcassets */; };
+		D6CB3CBE1FC9529D004F8248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3CBC1FC9529D004F8248 /* LaunchScreen.storyboard */; };
+		D6CB3CC91FC9529D004F8248 /* KepriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3CC81FC9529D004F8248 /* KepriTests.swift */; };
+		D6CB3CD41FC9529E004F8248 /* KepriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3CD31FC9529E004F8248 /* KepriUITests.swift */; };
+		D6CB41DE1FC96630004F8248 /* ResepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB41DD1FC96630004F8248 /* ResepTableViewCell.swift */; };
+		D6CB41E01FC96643004F8248 /* ResepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB41DF1FC96643004F8248 /* ResepTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6CB3CC51FC9529D004F8248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CB3CA81FC9529D004F8248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CB3CAF1FC9529D004F8248;
+			remoteInfo = Kepri;
+		};
+		D6CB3CD01FC9529E004F8248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CB3CA81FC9529D004F8248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CB3CAF1FC9529D004F8248;
+			remoteInfo = Kepri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		507752F897FA3511F5A5C08F /* Pods_Kepri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kepri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FDF4B05CAF26923A4A2980 /* Pods-Kepri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kepri.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kepri/Pods-Kepri.debug.xcconfig"; sourceTree = "<group>"; };
+		C362DEA4598AD75DA21D48FC /* Pods-Kepri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kepri.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kepri/Pods-Kepri.release.xcconfig"; sourceTree = "<group>"; };
+		D6CB3CB01FC9529D004F8248 /* Kepri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kepri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3CB31FC9529D004F8248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6CB3CB51FC9529D004F8248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6CB3CB81FC9529D004F8248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6CB3CBA1FC9529D004F8248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6CB3CBD1FC9529D004F8248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6CB3CBF1FC9529D004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB3CC41FC9529D004F8248 /* KepriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KepriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3CC81FC9529D004F8248 /* KepriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KepriTests.swift; sourceTree = "<group>"; };
+		D6CB3CCA1FC9529D004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB3CCF1FC9529E004F8248 /* KepriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KepriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3CD31FC9529E004F8248 /* KepriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KepriUITests.swift; sourceTree = "<group>"; };
+		D6CB3CD51FC9529E004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB41DD1FC96630004F8248 /* ResepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		D6CB41DF1FC96643004F8248 /* ResepTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6CB3CAD1FC9529D004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B62467CE5FFCD620309BD75 /* Pods_Kepri.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3CC11FC9529D004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3CCC1FC9529E004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6132611D0186F4F3FC1F7E4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				507752F897FA3511F5A5C08F /* Pods_Kepri.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC6FE0F121874FD6A1FD2BFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65FDF4B05CAF26923A4A2980 /* Pods-Kepri.debug.xcconfig */,
+				C362DEA4598AD75DA21D48FC /* Pods-Kepri.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6CB3CA71FC9529D004F8248 = {
+			isa = PBXGroup;
+			children = (
+				D6CB3CB21FC9529D004F8248 /* Kepri */,
+				D6CB3CC71FC9529D004F8248 /* KepriTests */,
+				D6CB3CD21FC9529E004F8248 /* KepriUITests */,
+				D6CB3CB11FC9529D004F8248 /* Products */,
+				AC6FE0F121874FD6A1FD2BFB /* Pods */,
+				6132611D0186F4F3FC1F7E4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CB3CB11FC9529D004F8248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3CB01FC9529D004F8248 /* Kepri.app */,
+				D6CB3CC41FC9529D004F8248 /* KepriTests.xctest */,
+				D6CB3CCF1FC9529E004F8248 /* KepriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6CB3CB21FC9529D004F8248 /* Kepri */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3CB31FC9529D004F8248 /* AppDelegate.swift */,
+				D6CB3CB71FC9529D004F8248 /* Main.storyboard */,
+				D6CB3CBA1FC9529D004F8248 /* Assets.xcassets */,
+				D6CB3CBC1FC9529D004F8248 /* LaunchScreen.storyboard */,
+				D6CB3CBF1FC9529D004F8248 /* Info.plist */,
+				D6CB41DD1FC96630004F8248 /* ResepTableViewCell.swift */,
+				D6CB41DF1FC96643004F8248 /* ResepTableViewController.swift */,
+				D6CB3CB51FC9529D004F8248 /* ViewController.swift */,
+			);
+			path = Kepri;
+			sourceTree = "<group>";
+		};
+		D6CB3CC71FC9529D004F8248 /* KepriTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3CC81FC9529D004F8248 /* KepriTests.swift */,
+				D6CB3CCA1FC9529D004F8248 /* Info.plist */,
+			);
+			path = KepriTests;
+			sourceTree = "<group>";
+		};
+		D6CB3CD21FC9529E004F8248 /* KepriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3CD31FC9529E004F8248 /* KepriUITests.swift */,
+				D6CB3CD51FC9529E004F8248 /* Info.plist */,
+			);
+			path = KepriUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6CB3CAF1FC9529D004F8248 /* Kepri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3CD81FC9529E004F8248 /* Build configuration list for PBXNativeTarget "Kepri" */;
+			buildPhases = (
+				6904AA4BDFCDFDBE67F8200B /* [CP] Check Pods Manifest.lock */,
+				D6CB3CAC1FC9529D004F8248 /* Sources */,
+				D6CB3CAD1FC9529D004F8248 /* Frameworks */,
+				D6CB3CAE1FC9529D004F8248 /* Resources */,
+				845299E7215DB49177A6EA0B /* [CP] Embed Pods Frameworks */,
+				612338F092CCBD521E3E2F36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kepri;
+			productName = Kepri;
+			productReference = D6CB3CB01FC9529D004F8248 /* Kepri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6CB3CC31FC9529D004F8248 /* KepriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3CDB1FC9529E004F8248 /* Build configuration list for PBXNativeTarget "KepriTests" */;
+			buildPhases = (
+				D6CB3CC01FC9529D004F8248 /* Sources */,
+				D6CB3CC11FC9529D004F8248 /* Frameworks */,
+				D6CB3CC21FC9529D004F8248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CB3CC61FC9529D004F8248 /* PBXTargetDependency */,
+			);
+			name = KepriTests;
+			productName = KepriTests;
+			productReference = D6CB3CC41FC9529D004F8248 /* KepriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6CB3CCE1FC9529E004F8248 /* KepriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3CDE1FC9529E004F8248 /* Build configuration list for PBXNativeTarget "KepriUITests" */;
+			buildPhases = (
+				D6CB3CCB1FC9529E004F8248 /* Sources */,
+				D6CB3CCC1FC9529E004F8248 /* Frameworks */,
+				D6CB3CCD1FC9529E004F8248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CB3CD11FC9529E004F8248 /* PBXTargetDependency */,
+			);
+			name = KepriUITests;
+			productName = KepriUITests;
+			productReference = D6CB3CCF1FC9529E004F8248 /* KepriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CB3CA81FC9529D004F8248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Djoendhie;
+				TargetAttributes = {
+					D6CB3CAF1FC9529D004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D6CB3CC31FC9529D004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CB3CAF1FC9529D004F8248;
+					};
+					D6CB3CCE1FC9529E004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CB3CAF1FC9529D004F8248;
+					};
+				};
+			};
+			buildConfigurationList = D6CB3CAB1FC9529D004F8248 /* Build configuration list for PBXProject "Kepri" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CB3CA71FC9529D004F8248;
+			productRefGroup = D6CB3CB11FC9529D004F8248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CB3CAF1FC9529D004F8248 /* Kepri */,
+				D6CB3CC31FC9529D004F8248 /* KepriTests */,
+				D6CB3CCE1FC9529E004F8248 /* KepriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6CB3CAE1FC9529D004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3CBE1FC9529D004F8248 /* LaunchScreen.storyboard in Resources */,
+				D6CB3CBB1FC9529D004F8248 /* Assets.xcassets in Resources */,
+				D6CB3CB91FC9529D004F8248 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3CC21FC9529D004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3CCD1FC9529E004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		612338F092CCBD521E3E2F36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kepri/Pods-Kepri-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6904AA4BDFCDFDBE67F8200B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kepri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845299E7215DB49177A6EA0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kepri/Pods-Kepri-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kepri/Pods-Kepri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6CB3CAC1FC9529D004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3CB61FC9529D004F8248 /* ViewController.swift in Sources */,
+				D6CB3CB41FC9529D004F8248 /* AppDelegate.swift in Sources */,
+				D6CB41DE1FC96630004F8248 /* ResepTableViewCell.swift in Sources */,
+				D6CB41E01FC96643004F8248 /* ResepTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3CC01FC9529D004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3CC91FC9529D004F8248 /* KepriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3CCB1FC9529E004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3CD41FC9529E004F8248 /* KepriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6CB3CC61FC9529D004F8248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CB3CAF1FC9529D004F8248 /* Kepri */;
+			targetProxy = D6CB3CC51FC9529D004F8248 /* PBXContainerItemProxy */;
+		};
+		D6CB3CD11FC9529E004F8248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CB3CAF1FC9529D004F8248 /* Kepri */;
+			targetProxy = D6CB3CD01FC9529E004F8248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6CB3CB71FC9529D004F8248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CB3CB81FC9529D004F8248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6CB3CBC1FC9529D004F8248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CB3CBD1FC9529D004F8248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6CB3CD61FC9529E004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6CB3CD71FC9529E004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CB3CD91FC9529E004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FDF4B05CAF26923A4A2980 /* Pods-Kepri.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kepri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Kepri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6CB3CDA1FC9529E004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C362DEA4598AD75DA21D48FC /* Pods-Kepri.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kepri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Kepri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6CB3CDC1FC9529E004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KepriTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.KepriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kepri.app/Kepri";
+			};
+			name = Debug;
+		};
+		D6CB3CDD1FC9529E004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KepriTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.KepriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kepri.app/Kepri";
+			};
+			name = Release;
+		};
+		D6CB3CDF1FC9529E004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KepriUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.KepriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kepri;
+			};
+			name = Debug;
+		};
+		D6CB3CE01FC9529E004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KepriUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.KepriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kepri;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6CB3CAB1FC9529D004F8248 /* Build configuration list for PBXProject "Kepri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3CD61FC9529E004F8248 /* Debug */,
+				D6CB3CD71FC9529E004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3CD81FC9529E004F8248 /* Build configuration list for PBXNativeTarget "Kepri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3CD91FC9529E004F8248 /* Debug */,
+				D6CB3CDA1FC9529E004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3CDB1FC9529E004F8248 /* Build configuration list for PBXNativeTarget "KepriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3CDC1FC9529E004F8248 /* Debug */,
+				D6CB3CDD1FC9529E004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3CDE1FC9529E004F8248 /* Build configuration list for PBXNativeTarget "KepriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3CDF1FC9529E004F8248 /* Debug */,
+				D6CB3CE01FC9529E004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CB3CA81FC9529D004F8248 /* Project object */;
+}
